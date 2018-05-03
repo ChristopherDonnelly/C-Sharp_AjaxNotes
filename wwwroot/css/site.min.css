@@ -1,1 +1,95 @@
-body{padding-top:50px;padding-bottom:20px}.body-content{padding-left:15px;padding-right:15px}.carousel-caption p{font-size:20px;line-height:1.4}.carousel-inner .item img[src$=".svg"]{width:100%}#qrCode{margin:15px}@media screen and (max-width:767px){.carousel-caption{display:none}}
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.media {
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 3px 3px darkslategrey;
+    background: linear-gradient(#fdfdcb, #fcf9a2);
+}
+.ui-draggable-dragging {
+    box-shadow: 13px 13px 13px darkslategrey;
+
+}
+
+.media-body .body {
+    position: relative;
+    overflow-y: hidden;
+    height: 225px;
+}
+
+.media-body .body p {
+    width: 100%;
+    height: 100%;
+    overflow: inherit;
+}
+
+.media #drag_here {
+    cursor: pointer;
+    height: 30px;
+    background-color: #fcf9a2;
+    width: 100%;
+}
+
+.body-content {
+    height: 750px;
+}
+
+.media-body h5:focus, .media-body p:focus {
+    background-color: white;
+}
+
+.overflow-y {
+    overflow-y: auto !important;
+}
+
+.media-body .body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+.media-body .body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.media-body .body::-webkit-scrollbar-thumb {
+  background-color: #D4D167;
+  outline: 2px inset #535229;
+}
+
+.dropdown-menu {
+    min-width: 20rem;
+    box-shadow: 3px 3px 3px darkslategrey;
+    background: linear-gradient(#fdfdcb, #fcf9a2);
+}
+
+.btn {
+    box-shadow: 3px 3px 3px darkslategrey;
+}
+
+.dropright .dropdown-toggle {
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 0.5em;
+    padding: 7px 0px 10px 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.dropright .dropdown-toggle::after {
+    border: none;
+    margin: 0;
+}
+
+button.close {
+    margin: -7px 4px 0px 0px;
+    font-size: 1.8em;
+}
